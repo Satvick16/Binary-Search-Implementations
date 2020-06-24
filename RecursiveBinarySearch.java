@@ -8,8 +8,7 @@ class RecursiveBinarySearch {
                 numbers.length - 1, toFind));
     }
 
-    int search(int[] numbers, int start,
-                                  int end, int toFind) {
+    int search(int[] numbers, int start, int end, int toFind) {
 
         if (start > end) return -1;
 
